@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Coca-Cola Meets K-POP
 
-## Getting Started
+## AI Generated Advertisements
 
-First, run the development server:
+### Process
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Data Collection**
+    - **Coca-Cola**
+        - [Coca-Cola Branding PDF](https://www.coca-colacompany.com/content/dam/company/us/en/visual-identity-pdf/the-coca-cola-foundation-visual-identity-2021.pdf)
+        - [Coca-Cola Wikipedia SVG](https://simple.m.wikipedia.org/wiki/File:Coca-Cola_logo.svg)
+2. **Video Generation**
+    - **Replicate Diffusion Modals**
+        - [Animate-diff (for text to video)](https://replicate.com/lucataco/animate-diff)
+        - [i2vgen-xl (for image to video)](https://replicate.com/ali-vilab/i2vgen-xl)
+3. **Image Generation**
+    - **Replicate Diffusion Modals**
+        - [sdxl-Lightning-4step](https://replicate.com/bytedance/sdxl-lightning-4step)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Challenges
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Variety of Diffusion Modals
+    - Many give poor quality results, some are too slow to run
+2. Video Generation
+    - Technology is still in its infancy, many models are not able to generate
+    high quality videos in a reasonable amount of time
+3. Image Generation
+    - Many models do not generate eyes, faces, or hands well
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Solutions
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Trial and Error in finding with modals work best
+2. Use generated images to guide video generation
+3. Use modals that allow for prompts as well as negative prompts to better guide
+the generation process
+    - Other tips: Use various themes and styles to generate diverse images

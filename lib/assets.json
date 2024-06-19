@@ -1,0 +1,41 @@
+{
+  "images": {
+    "drawings": [
+      "/photos/Drawing/1.png",
+      "/photos/Drawing/2.png",
+      "/photos/Drawing/3.png",
+      "/photos/Drawing/4.png",
+      "/photos/Drawing/5.png",
+      "/photos/Drawing/6.png",
+      "/photos/Drawing/replicate-prediction-kt63cb0a3nrge0cg5x79zreaf0-1.png",
+      "/photos/Drawing/replicate-prediction-kt63cb0a3nrge0cg5x79zreaf0-3.png"
+    ],
+    "posters": [
+      "/photos/Poster/1.png",
+      "/photos/Poster/2.png",
+      "/photos/Poster/3.png",
+      "/photos/Poster/4.png",
+      "/photos/Poster/5.png"
+    ],
+    "realistic": [
+      "/photos/Realistic/9.png",
+      "/photos/Realistic/10.png",
+      "/photos/Realistic/11.png",
+      "/photos/Realistic/12.png",
+      "/photos/Realistic/replicate-prediction-kt63cb0a3nrge0cg5x79zreaf0-0.png",
+      "/photos/Realistic/replicate-prediction-kt63cb0a3nrge0cg5x79zreaf0-2.png"
+    ]
+  },
+  "videos": {
+    "realistic": [
+      "/video/movie.mp4",
+      "/video/video-city.mp4",
+      "/video/movie2.mp4"
+    ],
+    "anime": [
+      "/video/anime1.mp4",
+      "/video/anime2.mp4",
+      "/video/anime3.mp4"
+    ]
+  }
+}
