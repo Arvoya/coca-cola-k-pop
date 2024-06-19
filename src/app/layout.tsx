@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Coca-Cola + K-POP",
-  description: "Generatative art blending Coca-Cola and K-POP",
+  description: "Generative art blending Coca-Cola and K-POP",
 };
 
 export default function RootLayout({
